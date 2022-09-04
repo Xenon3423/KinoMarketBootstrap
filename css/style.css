@@ -1,0 +1,164 @@
+.header a, a:hover {
+    color: #346270;
+    text-decoration: none;
+}
+
+.header h1 {
+    letter-spacing: 10px;
+    font-size: 500%;
+    font-weight: bolder;
+    font-family:Courier, monospace;
+}
+
+.header p {
+    color: white !important;
+    font-size: 120%;
+    letter-spacing: 3px;
+    font-family:'Comic Sans MS', cursive;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+
+.nav-pills>li>a {
+    color: #fff;
+}
+
+.nav-pills>li>a:hover {
+    background-color: #346270;
+}
+
+.navbar-inverse {
+    padding: 1%;
+    border-radius: 0%;
+}
+
+@media (max-width: 767px) {
+    .nav-pills>li {
+        float: none;
+    }
+    .nav-pills {
+        text-align: center;
+    }
+    
+    .header h1 {
+        letter-spacing: 5px;
+        font-size: 280%;
+    }
+    .header {
+        text-align: center;
+    }
+}
+
+.clear {
+    clear: both;
+    height: 63px;
+}
+     /* Прижать футер вниз */
+.wrapper {
+    min-height: 100%;
+}
+  /* Прижать футер вниз */
+html, body {
+    height: 100%;
+}
+
+footer {
+    background-color: #222;
+    color: #346270;
+    font-size: 100%;
+    padding: 17px;
+    font-family:'Comic Sans MS', cursive;
+}
+
+.films_block {
+    text-align: center;
+}
+
+.films_block img {
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid #dad7d5;
+    width: 100%;
+}
+
+.film_label {
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+    background-color: #346270;
+    color: white;
+    border-color: transparent;
+}
+
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.input-lg {
+    font-size: 14px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.list-group-item-info {
+    color: #8a6d3b;
+    background-color: #f9f9f9;
+}
+
+.badge {
+    background-color: #000000;
+}
+
+.info-block {
+    font-size: 120%;
+}
+
+.info-block .badge {
+    font-size: 80%;
+}
+
+.info-block span {
+    margin-right: 3%;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
+.contacts>p {
+    font-size: 120%;
+    margin: 30px 0 25px 0;
+    font-family:'Comic Sans MS', cursive;
+}
+
+textarea.form-contacts {
+    height: 200px;
+}
+
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
